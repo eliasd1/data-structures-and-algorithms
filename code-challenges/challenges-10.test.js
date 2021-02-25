@@ -37,7 +37,7 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
 
 const count = (target, input) => {
-  return input.reduce((acc,next) => acc + next.filter(number => number === target).length, 0);
+  return input.reduce((acc,next) =>acc + next.filter(number => number === target).length, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -146,7 +146,9 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
-  return data.reduce((acc,next) => Math.min(Number(acc.height), Number(next.height)) === Number(acc.height) ? acc : next).name;
+  return data.reduce((acc,next) =>{
+    return Math.min(Number(acc.height), Number(next.height)) === Number(acc.height) ? acc : next;
+  }).name;
 };
 
 /* ------------------------------------------------------------------------------------------------
