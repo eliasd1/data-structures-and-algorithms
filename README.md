@@ -10,6 +10,18 @@ Under the `data-structures-and-algorithms` repository, at the top level is a fol
 
 Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
 
-### 401 Data Structures, Code Challenges
+# 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+## Reverse an Array
+
+### Challenge
+
+Reverse the order of a given array
+
+### Approach & Efficiency
+
+Created a function that returns the array in reverse order. This returned statement is then printed.
+
+### Solution
+
+[Code Challenge 1 WhiteBoard](assets/code_challenge_1.PNG)
