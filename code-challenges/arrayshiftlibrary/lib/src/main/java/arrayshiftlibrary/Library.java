@@ -12,7 +12,7 @@ public class Library {
       for(int i = 0; i<newArray.length; i++){
         if(i == Math.round(array.length/2.0)){
           newArray[i] = value;
-        } else if(i > array.length/2){
+        } else if(i > Math.round(array.length/2.0)){
           newArray[i] = array[i-1];
         } else{
           newArray[i] = array[i];
