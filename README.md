@@ -25,3 +25,17 @@ Created a function that returns the array in reverse order. This returned statem
 ### Solution
 
 [Code Challenge 1 WhiteBoard](assets/code_challenge_1.PNG)
+
+## Array Shift
+
+### Challenge Description
+
+Add a given value to the middle index of an array
+
+### Approach & Efficiency
+
+Created a function that uses a for loop to loop through the array and insert a value at the middle index of the array.
+
+### Solution
+
+[Code Challenge 2 WhiteBoard](assets/code_challenge_2.PNG)
