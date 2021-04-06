@@ -39,3 +39,17 @@ Created a function that uses a for loop to loop through the array and insert a v
 ### Solution
 
 [Code Challenge 2 WhiteBoard](assets/code_challenge_2.PNG)
+
+## Binary Serarch
+
+### Challenge Description
+
+Search for a value in an array and return its index
+
+### Approach & Efficiency
+
+Using binary search, the process of finding a value within an array becomes much easier. If the value at the middle index of array is equal to the given value then return the index. If the value at the middle index is greater than or less than the value then call the function with the appropriate parameters.
+
+### Solution
+
+[Code Challenge 3 WhiteBoard](assets/code_challenge_3.PNG)
