@@ -53,3 +53,30 @@ Using binary search, the process of finding a value within an array becomes much
 ### Solution
 
 [Code Challenge 3 WhiteBoard](assets/code_challenge_3.PNG)
+
+# Singly Linked List
+A linked list that goes in one direction
+
+## Challenge
+Create a linked list from scratch
+
+## Approach & Efficiency
+Create two classes, one for linked list and the other for node. Each time a user inserts a value into the list, make that value the new head of the list and set the next value to be the previous head value.
+## API
+
+Insert function
+
+If the head is null, it will make the head and current values of the list equal to the given value. Otherwise, it will make the current value equal to the head value and then change the value of the head to be the value given. It will also set the next node to be the previous head node.
+
+Includes function
+
+Checks if a given value is included in the list by iterating over the list using a while function. If the current value is not null, it evaluates the value and then makes the current value equal to the next value.
+
+GetFirstValue function
+
+Returns the first value or the head value
+
+GetValues function
+
+Returns an array of all the values in the list
+
