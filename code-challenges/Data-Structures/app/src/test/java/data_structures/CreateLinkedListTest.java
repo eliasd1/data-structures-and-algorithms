@@ -41,5 +41,40 @@ public class CreateLinkedListTest {
     list.insert(15);
     assertEquals(values, list.getValues());
   }
-
+  @Test public void testAppend(){
+    ArrayList values = new ArrayList(Arrays.asList(15,10,5, 0, 5));
+    ArrayList secondSet = new ArrayList(Arrays.asList(15,10,5,0,4));
+    CreateLinkedList list = new CreateLinkedList();
+    list.insert(5);
+    list.insert(10);
+    list.insert(15);
+    list.append(0);
+    list.append(5);
+    assertEquals(values, list.getValues());
+    assertNotEquals(secondSet, list.getValues());
+  }
+  @Test public void testInsertBefore(){
+    ArrayList values = new ArrayList(Arrays.asList(20,15,10,8,5, 0, 25));
+    CreateLinkedList list = new CreateLinkedList();
+    list.insert(5);
+    list.insert(10);
+    list.insert(15);
+    list.append(0);
+    list.append(25);
+    list.insertBefore(5, 8);
+    list.insertBefore(15, 20);
+    assertEquals(values, list.getValues());
+  }
+  @Test public void testInsertAfter(){
+    ArrayList values = new ArrayList(Arrays.asList(15, 10, 5, 2, 0, 25, 50));
+    CreateLinkedList list = new CreateLinkedList();
+    list.insert(5);
+    list.insert(10);
+    list.insert(15);
+    list.append(0);
+    list.append(25);
+    list.insertAfter(5, 2);
+    list.insertAfter(25, 50);
+    assertEquals(values, list.getValues());
+  }
 }

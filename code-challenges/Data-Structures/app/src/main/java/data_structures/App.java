@@ -7,8 +7,11 @@ public class App {
      public static void main(String[] args) {
         CreateLinkedList list = new CreateLinkedList();
         list.insert(5);
-        list.insert(2);
-        list.insert(2);
+        list.insert(10);
+        list.append(2);
+        list.insertBefore(2, 3);
+        list.insertBefore(3, 10);
+        list.insertAfter(10, 20);
        System.out.println(list);
 
     }
