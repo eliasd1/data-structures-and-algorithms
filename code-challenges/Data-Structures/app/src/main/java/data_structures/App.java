@@ -8,11 +8,16 @@ public class App {
         CreateLinkedList list = new CreateLinkedList();
         list.insert(5);
         list.insert(10);
-        list.append(2);
-        list.insertBefore(2, 3);
-        list.insertBefore(3, 10);
-        list.insertAfter(10, 20);
+        list.insert(20);
+        list.insertAfter(5, 15);
+        list.append(50);
+        list.insertBefore(50, 20);
        System.out.println(list);
+       try{
+         System.out.println(list.fromEnd(6));
+       } catch(IllegalArgumentException ex){
+         System.out.println(ex.getMessage());
+       }
 
     }
     public String getGreeting(){

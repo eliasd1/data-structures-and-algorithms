@@ -77,4 +77,45 @@ public class CreateLinkedListTest {
     list.insertAfter(25, 50);
     assertEquals(values, list.getValues());
   }
+  @Test public void testFromEnd(){
+    ArrayList values = new ArrayList(Arrays.asList(15, 10, 5));
+    CreateLinkedList list = new CreateLinkedList();
+    list.insert(5);
+    list.insert(10);
+    list.insert(15);
+    System.out.println("Check if exception is thrown when k is greater than the length");
+    try{
+      System.out.println(list.fromEnd(3));
+      assertTrue(false);
+    } catch(IllegalArgumentException ex){
+      System.out.println(ex.getMessage());
+      assertTrue(true);
+    }
+    System.out.println("K and the length of the list are the same");
+    try{
+      System.out.println(list.fromEnd(2));
+      assertTrue(true);
+    } catch(IllegalArgumentException ex){
+      System.out.println(ex.getMessage());
+      assertTrue(false);
+    }
+    System.out.println("K is a negative number");
+    try{
+      System.out.println(list.fromEnd(-1));
+      assertTrue(false);
+    } catch(IllegalArgumentException ex){
+      System.out.println(ex.getMessage());
+      assertTrue(true);
+    }
+    CreateLinkedList newList = new CreateLinkedList();
+    newList.insert(5);
+    System.out.println("List is length 1");
+    try{
+      System.out.println(list.fromEnd(0));
+      assertTrue(true);
+    } catch(IllegalArgumentException ex){
+      System.out.println(ex.getMessage());
+      assertTrue(false);
+    }
+  }
 }
