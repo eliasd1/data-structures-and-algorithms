@@ -118,4 +118,22 @@ public class CreateLinkedListTest {
       assertTrue(false);
     }
   }
+  @Test public void testZipLists(){
+    CreateLinkedList list = new CreateLinkedList();
+    CreateLinkedList secondList = new CreateLinkedList();
+    CreateLinkedList thirdList = new CreateLinkedList();
+    list.insert(5);
+    list.insert(10);
+
+
+    secondList.insert(25);
+    secondList.insert(50);
+    
+    thirdList.insert(25);
+    thirdList.insert(5);
+    thirdList.insert(50);
+    thirdList.insert(10);
+
+    assertEquals(thirdList.getValues(), CreateLinkedList.zipLists(list, secondList).getValues());
+  }
 }
