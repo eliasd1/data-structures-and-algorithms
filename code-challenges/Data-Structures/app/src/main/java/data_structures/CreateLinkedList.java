@@ -42,8 +42,11 @@ public class CreateLinkedList {
     return allValues;
   }
   public void append(Object object){
-    this.tail.setNext(new Node(object));
-    this.tail = tail.next();
+    Node current = head;
+    while(current.next() != null){
+      current = current.next();
+    }
+    current.setNext(new Node(object));
   }
   public void insertBefore(Object object, Object newObject){
     Node current = head;
@@ -101,5 +104,21 @@ public class CreateLinkedList {
     string += "NULL";
     string += "\n Tail: " + this.tail.value();
     return string;
+  }
+  public static CreateLinkedList zipLists(CreateLinkedList one, CreateLinkedList two){
+    if(one.getValues().size() == two.getValues().size()){
+      CreateLinkedList list = new CreateLinkedList();
+      for(int i = 0; i<one.getValues().size(); i++){
+        if(i == 0){
+          list.insert(one.getValues().get(i));
+        } else{
+          list.append(one.getValues().get(i));
+        }
+        list.append(two.getValues().get(i));
+      }
+      return list;
+    } else{
+      throw new IllegalArgumentException("List must be of the same size");
+    }
   }
 }

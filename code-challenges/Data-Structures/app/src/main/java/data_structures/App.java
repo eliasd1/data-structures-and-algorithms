@@ -6,15 +6,19 @@ package data_structures;
 public class App {
      public static void main(String[] args) {
         CreateLinkedList list = new CreateLinkedList();
+        CreateLinkedList secondList = new CreateLinkedList();
         list.insert(5);
         list.insert(10);
         list.insert(20);
-        list.insertAfter(5, 15);
-        list.append(50);
-        list.insertBefore(50, 20);
+
+       secondList.insert(25);
+       secondList.insert(50);
+       secondList.insert(100);
+
+       System.out.println(secondList);
        System.out.println(list);
        try{
-         System.out.println(list.fromEnd(6));
+         System.out.println(CreateLinkedList.zipLists(list, secondList));
        } catch(IllegalArgumentException ex){
          System.out.println(ex.getMessage());
        }
