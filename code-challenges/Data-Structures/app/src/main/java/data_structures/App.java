@@ -7,22 +7,27 @@ public class App {
      public static void main(String[] args) {
         CreateLinkedList list = new CreateLinkedList();
         CreateLinkedList secondList = new CreateLinkedList();
-        list.insert(5);
-        list.insert(10);
-        list.insert(20);
-
-       secondList.insert(25);
-       secondList.insert(50);
-       secondList.insert(100);
-
-       System.out.println(secondList);
-       System.out.println(list);
-       try{
-         System.out.println(CreateLinkedList.zipLists(list, secondList));
-       } catch(IllegalArgumentException ex){
-         System.out.println(ex.getMessage());
-       }
-
+//        list.insert(5);
+//        list.insert(10);
+//        list.insert(20);
+//
+//       secondList.insert(25);
+//       secondList.insert(50);
+//       secondList.insert(100);
+//
+//       System.out.println(secondList);
+//       System.out.println(list);
+//       try{
+//         System.out.println(CreateLinkedList.zipLists(list, secondList));
+//       } catch(IllegalArgumentException ex){
+//         System.out.println(ex.getMessage());
+//       }
+       list.insert(1);
+        list.insert(2);
+        list.insert(1);
+        list.insert(2);
+        list.insert(1);
+       System.out.println(list.isPalindrome());
     }
     public String getGreeting(){
        return "Hello";

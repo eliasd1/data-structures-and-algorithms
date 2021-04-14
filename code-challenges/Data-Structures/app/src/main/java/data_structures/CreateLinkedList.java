@@ -92,6 +92,14 @@ public class CreateLinkedList {
       throw new IllegalArgumentException("Not valid input");
     }
   }
+  public boolean isPalindrome(){
+    for(int i = 0; i<= this.getValues().size()/2; i++){
+      if(this.getValues().get(i) != this.getValues().get(getValues().size()-1-i)){
+        return false;
+      }
+    }
+    return true;
+  }
 
   @Override
   public String toString() {
