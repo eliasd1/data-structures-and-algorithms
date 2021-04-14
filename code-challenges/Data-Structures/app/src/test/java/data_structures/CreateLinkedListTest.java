@@ -128,7 +128,7 @@ public class CreateLinkedListTest {
 
     secondList.insert(25);
     secondList.insert(50);
-    
+
     thirdList.insert(25);
     thirdList.insert(5);
     thirdList.insert(50);
