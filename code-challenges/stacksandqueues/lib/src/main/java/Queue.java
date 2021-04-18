@@ -10,7 +10,6 @@ public class Queue<T>{
     else{
       rear.setNext(new Node(object));
       rear = new Node(object);
-
       if(front.next() == null){
         front.setNext(rear);
       }

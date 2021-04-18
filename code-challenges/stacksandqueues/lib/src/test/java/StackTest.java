@@ -10,7 +10,6 @@ public class StackTest {
     stack.push(5);
     stack.push(8);
     stack.push(10);
-
     System.out.println("Test if pop works");
     assertEquals(10, stack.pop().getData());
     System.out.println("Test if peek works");
