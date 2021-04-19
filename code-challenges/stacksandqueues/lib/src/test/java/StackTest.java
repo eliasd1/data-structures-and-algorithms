@@ -17,4 +17,5 @@ public class StackTest {
     System.out.println("Test if isEmpty function works");
     assertFalse(stack.isEmpty());
   }
+
 }
