@@ -7,9 +7,6 @@ public class App {
     public static void main(String[] args) {
 
     }
-    public static int charCode(char c){
-      return (int) c;
-    }
   public static boolean multiBracketValidation(String input){
       Stack stack = new Stack();
       int counter = 0;
