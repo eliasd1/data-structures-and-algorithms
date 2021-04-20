@@ -8,8 +8,10 @@ public class App {
 
     }
   public static boolean multiBracketValidation(String input){
+      if(input.length() <= 1){
+        return false;
+      }
       Stack stack = new Stack();
-      int counter = 0;
       for(int i = 0; i<input.length(); i++){
         char c = input.charAt(i);
         if(c == '{' || c == '(' || c == '['){
