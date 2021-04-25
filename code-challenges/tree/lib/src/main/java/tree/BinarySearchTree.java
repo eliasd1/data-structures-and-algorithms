@@ -3,12 +3,16 @@ package tree;
 public class BinarySearchTree<T>{
   private Node root = null;
   private Node current = null;
+  private int maxValue = Integer.MIN_VALUE;
 
   public void add(int value) {
     if (root == null) {
       root = new Node(value);
       current = new Node(value);
     } else {
+        if(Math.max(maxValue, value) != maxValue){
+          maxValue = value;
+        }
         if(value < (int) current.getValue()){
           if(current.getLeft() == null){
             current.setLeft(new Node(value));
@@ -33,7 +37,9 @@ public class BinarySearchTree<T>{
         current = root;
     }
   }
-
+  public int findMaximumValue(){
+    return maxValue;
+  }
   public boolean contains(int value){
     return containsAlgo(root, value);
   }

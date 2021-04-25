@@ -1,18 +1,15 @@
 public class Queue<T>{
   private Node front = null;
   private Node rear = null;
-  private Node current = null;
 
   public void enqueue(T object){
     if(this.isEmpty()){
       front = new Node(object);
       rear = new Node(object);
-      current = new Node(object);
     }
     else{
-      current = rear;
+      rear.setNext(new Node(object));
       rear = new Node(object);
-      current.setNext(rear);
       if(front.next() == null){
         front.setNext(rear);
       }
@@ -41,9 +38,7 @@ public class Queue<T>{
     }
     return false;
   }
-  public Node getRear(){
-    return rear;
-  }
+
   @Override
   public String toString() {
     return "Queue{" +
