@@ -8,6 +8,7 @@ public class Node<T>{
   public Node(T value){
     this.value = value;
   }
+
   public Node(T value, Node left, Node right){
     this.value = value;
     this.left = left;
@@ -20,7 +21,6 @@ public class Node<T>{
   public void setValue(T value) {
     this.value = value;
   }
-
   public Node getLeft() {
     return left;
   }
