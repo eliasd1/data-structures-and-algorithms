@@ -37,6 +37,21 @@ public class BinarySearchTree<T>{
         current = root;
     }
   }
+  public boolean checkFolders(BinarySearchTree firstTree, BinarySearchTree secondTree){
+    return checkFoldersAlgo(firstTree.getRoot(), 0) == checkFoldersAlgo(secondTree.getRoot(), 0);
+  }
+  public int checkFoldersAlgo(Node root, int number){
+    if(root.getLeft() != null){
+      number = checkFoldersAlgo(root.getLeft(), number);
+    }
+    if(root.getRight() != null){
+      number = checkFoldersAlgo(root.getRight(), number);
+    }
+    if(root.getLeft() == null && root.getRight() == null){
+      number += 1;
+    }
+    return number;
+  }
   public int findMaximumValue(){
     return maxValue;
   }
