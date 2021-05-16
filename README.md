@@ -80,3 +80,17 @@ GetValues function
 
 Returns an array of all the values in the list
 
+## Insertion Sort
+
+A method that sorts a given array
+
+### Challenge
+
+Sort an array using the insertion sort method
+
+### Approach & Efficiency
+
+Compare a value at certain index with all values at previous indexes
+
+### Solution
+[Code Challenge 26 whiteboard](assets/code_challenge_26_whiteboard.PNG)
