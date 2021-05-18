@@ -94,3 +94,18 @@ Compare a value at certain index with all values at previous indexes
 
 ### Solution
 [Code Challenge 26 whiteboard](assets/code_challenge_26_whiteboard.PNG)
+
+## Quick Sort
+
+A method that sorts a given array
+
+### Challenge
+
+Sort an array using the quick sort method
+
+### Approach & Efficiency
+
+Pick a pivot (last number in an array)and compare it with values at each index. Declare a variable called low that is equal to -1. If a value is less than the pivot value, increment low and replace that value with low +1.
+
+### Solution
+[Code Challenge 28 whiteboard](assets/code_challenge_28_whiteboard.PNG)
