@@ -12,10 +12,11 @@ public class App {
 
       hashTable.add("first", "this is the first message");
       hashTable.add("second", "this is the second message");
-      hashTable.add("third", "test message");
+      hashTable.add("third", "this is the third message");
       hashTable.add(3, "this is the third message");
       hashTable.add("fourth", 4);
 
-      System.out.println(hashTable.get("first"));
+      System.out.println(hashTable.get("third"));
+      System.out.println(hashTable.contains("first"));
     }
 }

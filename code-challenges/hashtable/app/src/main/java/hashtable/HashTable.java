@@ -29,15 +29,23 @@ public class HashTable {
     }
 
     public Object get(Object key){
-      CreateLinkedList linkedList = storedData[hash(key)];
-      Node current = linkedList.head;
-      while(current != null){
-        if(current.getKey().equals(key)){
-          return current.value();
+      if(storedData[hash(key)] instanceof CreateLinkedList){
+        CreateLinkedList linkedList = storedData[hash(key)];
+        Node current = linkedList.head;
+        while(current != null){
+          if(current.getKey().equals(key)){
+            return current.value();
+          }
+          current = current.next();
         }
-        current = current.next();
       }
       return null;
+    }
+    public boolean contains(Object key){
+      if(get(key) != null){
+        return true;
+      }
+      return false;
     }
     private int hash(Object key){
       if(key instanceof String){

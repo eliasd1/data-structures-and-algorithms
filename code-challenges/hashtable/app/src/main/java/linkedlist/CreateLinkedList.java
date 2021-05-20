@@ -49,16 +49,6 @@ public class CreateLinkedList {
     }
     current.setNext(new Node(key, value));
   }
-  public boolean keyExists(Object key){
-    Node current = head;
-    while(current != null){
-      if(current.getKey().equals(key)){
-        return true;
-      }
-      current = current.next();
-    }
-    return false;
-  }
 //  public void insertBefore(Object object, Object newObject){
 //    Node current = head;
 //    Node newNode = new Node(newObject);
