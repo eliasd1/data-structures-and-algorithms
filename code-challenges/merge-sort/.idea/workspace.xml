@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fe12d125-a02a-4995-b380-cd2ddeef1ffc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/merge/sort/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/merge/sort/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quick_sort/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quick_sort/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/acorn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/atob" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/escodegen" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/escodegen" afterDir="false" />
@@ -70,7 +72,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quick_sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../merge_sort" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
