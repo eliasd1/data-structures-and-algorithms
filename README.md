@@ -109,3 +109,15 @@ Pick a pivot (last number in an array)and compare it with values at each index. 
 
 ### Solution
 [Code Challenge 28 whiteboard](assets/code_challenge_28_whiteboard.PNG)
+
+## Hash Table
+
+Create a hashtable which stores a key-value pair.
+
+### Challenge
+
+Create a method which has a complexity of O(1) that can get a value from a key
+
+### Approach & Efficiency
+
+Create an array of LinkedLists with a predefined size. In the add function, hash the given key, create a linked list, and save the unhashed key and value to the list.
