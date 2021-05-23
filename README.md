@@ -110,14 +110,14 @@ Pick a pivot (last number in an array)and compare it with values at each index. 
 ### Solution
 [Code Challenge 28 whiteboard](assets/code_challenge_28_whiteboard.PNG)
 
-## Hash Table
+## Repeated Words
 
-Create a hashtable which stores a key-value pair.
+Find the first repeated word in a string
 
 ### Challenge
 
-Create a method which has a complexity of O(1) that can get a value from a key
+Find the repeated word without using any built-in functions
 
 ### Approach & Efficiency
 
-Create an array of LinkedLists with a predefined size. In the add function, hash the given key, create a linked list, and save the unhashed key and value to the list.
+First, create a linkedlist. Add a method that iterates over the given string and adds wordds to the linkedlist, and if a word already exists in the linkedlist, return the word.
