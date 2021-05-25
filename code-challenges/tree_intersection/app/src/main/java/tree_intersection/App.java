@@ -10,18 +10,73 @@ public class App {
       BinarySearchTree firstTree = new BinarySearchTree();
       BinarySearchTree secondTree = new BinarySearchTree();
 
-      firstTree.add(2);
-      firstTree.add(5);
       firstTree.add(10);
+      firstTree.add(5);
       firstTree.add(20);
+      firstTree.add(30);
       firstTree.add(15);
-
-      secondTree.add(2);
-      secondTree.add(4);
-      secondTree.add(10);
-      secondTree.add(15);
+//      firstTree.add(20);
+//      firstTree.add(15);
+//      firstTree.add(50);
+//      firstTree.add(25);
+//      firstTree.add(42);
       secondTree.add(20);
-      secondTree.add(50);
+      secondTree.add(15);
+      secondTree.add(30);
+//      secondTree.add(15);
+//      secondTree.add(20);
+//      secondTree.add(50);
+//      secondTree.add(100);
+//      secondTree.add(200);
+//      secondTree.add(1);
+//      secondTree.add(500);
+//      secondTree.add(600);
+//      secondTree.add(25);
+//      secondTree.add(24);
+//      secondTree.add(21);
+//      secondTree.add(10);
+//      secondTree.add(400);
+//      secondTree.add(250);
+//      secondTree.add(550);
+//      secondTree.add(32);
+//      secondTree.add(35);
+//      secondTree.add(70);
+//      secondTree.add(80);
+//      secondTree.add(90);
+//      secondTree.add(85);
+//      secondTree.add(95);
+//      secondTree.add(280);
+//      secondTree.add(320);
+//      secondTree.add(42);
+//      secondTree.add(48);
+//      secondTree.add(92);
+//      secondTree.add(65);
+//      secondTree.add(54);
+//      secondTree.add(52);
+//      secondTree.add(53);
+//      secondTree.add(98);
+//      secondTree.add(88);
+//      secondTree.add(82);
+//      secondTree.add(74);
+//      secondTree.add(28);
+//      secondTree.add(84);
+//      secondTree.add(43);
+//      secondTree.add(49);
+//      secondTree.add(53);
+//      secondTree.add(83);
+//      secondTree.add(93);
+//      secondTree.add(47);
+//      secondTree.add(57);
+//      secondTree.add(67);
+//      secondTree.add(77);
+//      secondTree.add(27);
+//      secondTree.add(23);
+//      secondTree.add(21);
+//      secondTree.add(11);
+
+
       System.out.println(TreeIntersection.findSameValues(firstTree, secondTree));
+      System.out.println(TreeIntersection.sameValues(firstTree, secondTree));
+
     }
 }
