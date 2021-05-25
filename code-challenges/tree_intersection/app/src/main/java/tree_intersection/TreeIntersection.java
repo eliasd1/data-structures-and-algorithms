@@ -28,4 +28,24 @@ public class TreeIntersection {
     }
     return sameValues;
   }
+  public static List<Integer> sameValues(BinarySearchTree firstTree, BinarySearchTree secondTree){
+    List<Integer> list = new ArrayList<>();
+    check(firstTree.getRoot(), secondTree.getRoot(), list);
+    return list;
+  }
+  public static void check(Node firstRoot, Node secondRoot, List<Integer> list){
+    if(firstRoot != null && secondRoot != null){
+      if((int) firstRoot.getValue() == (int) secondRoot.getValue() && !list.contains((int) firstRoot.getValue())){
+        list.add((int) firstRoot.getValue());
+      }
+      if((int) firstRoot.getValue() < (int) secondRoot.getValue()){
+        check(firstRoot.getRight(), secondRoot, list);
+        check(firstRoot, secondRoot.getLeft(), list);
+      } else{
+        check(firstRoot.getLeft(), secondRoot, list);
+        check(firstRoot, secondRoot.getRight(), list);
+      }
+    }
+  }
+
 }
