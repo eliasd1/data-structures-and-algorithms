@@ -12,11 +12,22 @@ public class App {
       Graph graph = new Graph();
       Node firstNode = new Node(5);
       Node secondNode = new Node(10);
-
+      Node thirdNode = new Node(20);
+      Node fourthNode = new Node(30);
+      Node fifthNode = new Node(10);
       graph.addNode(firstNode);
       graph.addNode(secondNode);
+      graph.addNode(thirdNode);
+      graph.addNode(fourthNode);
+      graph.addNode(fifthNode);
 
       graph.addEdge(firstNode, secondNode, 0);
+      graph.addEdge(firstNode, thirdNode, 50);
+      graph.addEdge(secondNode, fourthNode, 10);
+      graph.addEdge(thirdNode, fifthNode, 20);
+      for(Object node: BreadthFirst.breadthFirst(firstNode)){
+        System.out.println((((Node)node).value()));
+      }
 
     }
 }
