@@ -52,6 +52,8 @@ public class HashTable {
         return (599*((String) key).length()) % 256;
       } else if(key instanceof Integer){
         return (599* (int) key) % 256;
+      } else if(key instanceof graph.Node){
+        return hash(((graph.Node) key).value());
       }
       throw new IllegalArgumentException("Must be a string or a number");
     }

@@ -15,11 +15,11 @@ public class App {
       firstTree.add(20);
       firstTree.add(30);
       firstTree.add(15);
-//      firstTree.add(20);
-//      firstTree.add(15);
-//      firstTree.add(50);
-//      firstTree.add(25);
-//      firstTree.add(42);
+      firstTree.add(20);
+      firstTree.add(15);
+      firstTree.add(50);
+      firstTree.add(25);
+      firstTree.add(42);
       secondTree.add(20);
       secondTree.add(15);
       secondTree.add(30);

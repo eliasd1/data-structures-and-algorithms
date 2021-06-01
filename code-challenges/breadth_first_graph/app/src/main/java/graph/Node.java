@@ -2,12 +2,13 @@ package graph;
 
 import hashtable.HashTable;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Node {
   private Object object;
-  private HashTable edges = null;
-  private List<Node> nodeEdges = null;
+  private HashTable edges = new HashTable();
+  private List<Node> nodeEdges = new ArrayList<>();
 
   public Node(Object object){
     this.object = object;

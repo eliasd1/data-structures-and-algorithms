@@ -3,9 +3,20 @@
  */
 package breadth_first_graph;
 
+import graph.Graph;
+import graph.Node;
+
 public class App {
 
     public static void main(String[] args) {
-        
+      Graph graph = new Graph();
+      Node firstNode = new Node(5);
+      Node secondNode = new Node(10);
+
+      graph.addNode(firstNode);
+      graph.addNode(secondNode);
+
+      graph.addEdge(firstNode, secondNode, 0);
+
     }
 }
