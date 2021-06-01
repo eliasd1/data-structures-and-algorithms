@@ -3,6 +3,7 @@
  */
 package breadth_first_graph;
 
+import GetEdges.GetEdges;
 import graph.Graph;
 import graph.Node;
 
@@ -21,13 +22,10 @@ public class App {
       graph.addNode(fourthNode);
       graph.addNode(fifthNode);
 
-      graph.addEdge(firstNode, secondNode, 0);
-      graph.addEdge(firstNode, thirdNode, 50);
-      graph.addEdge(secondNode, fourthNode, 10);
-      graph.addEdge(thirdNode, fifthNode, 20);
-      for(Object node: BreadthFirst.breadthFirst(firstNode)){
-        System.out.println((((Node)node).value()));
-      }
+      graph.addEdge(firstNode, secondNode, 5);
+      graph.addEdge(secondNode, thirdNode, 10);
+      graph.addEdge(thirdNode, fourthNode, 20);
 
+      System.out.println(GetEdges.getCost(graph, new String[]{"first", "second", "third", "fourth"}));
     }
 }
