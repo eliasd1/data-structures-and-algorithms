@@ -42,6 +42,8 @@ public class Queue<T>{
   public Boolean isEmpty(){
     if(front == null && rear == null){
       return true;
+    } else if(front == null){
+      return true;
     }
     return false;
   }
