@@ -1,6 +1,7 @@
 package breadth_first_graph;
 
 import Queue.Queue;
+import graph.Graph;
 import graph.Node;
 
 import java.util.ArrayList;
@@ -28,5 +29,8 @@ public class BreadthFirst {
       }
     }
     return list;
+  }
+  public static boolean nodeExists(Node firstNode, Node secondNode, Graph graph){
+    return breadthFirst(firstNode).contains(secondNode);
   }
 }

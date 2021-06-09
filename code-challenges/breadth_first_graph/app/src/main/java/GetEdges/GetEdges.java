@@ -8,8 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GetEdges {
+  public static boolean directFlight(Graph graph, String[] cityNames){
+    if(getCost(graph, cityNames) > 0){
+      return true;
+    }
+    return false;
+  }
   public static int getCost(Graph graph, String[] cityNames){
-      List<Node> list = depthFirstSearch(graph);
+      List<Node> list = traverseGraph(graph);
       List<Node> updatedList = new ArrayList<>();
 
       int price = 0;
@@ -28,7 +34,7 @@ public class GetEdges {
 
       return price;
   }
-  public static List<Node> depthFirstSearch(Graph graph){
+  public static List<Node> traverseGraph(Graph graph){
     Stack stack = new Stack();
     List<Node> list = new ArrayList<>();
     List<Node> visited = new ArrayList<>();
