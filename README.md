@@ -124,6 +124,37 @@ First, create a linkedlist. Add a method that iterates over the given string and
 
 ### Challenge
 
+Write a method that left joins two hashmap into a single data structure
+
+### Approach & Efficiency
+
+- Define a list
+- Loop through each key in the left hashtable
+- Create an inner list
+- Save the key, the value, and if right has a value at the same key add that to the innerlist
+- Return list
+Time complexity - O(N) (Loop through every key in the left key (n) in the hashtable)
+Space complexity - O(N) (the number of keys that exists in the hashtable)
+
+### Approach & Efficiency
+
+- Define a method that traverses the graph
+- Define a list
+- Define a stack that will hold unvisited locations
+- Keep track of locations visited
+- If the location hasn't been visited, add it
+to the list
+- Loop through the list returned from the method and get the cost (or weight) between the nodes
+- If a location has been visited, return false (meaning there's no direct path
+
+Time complexity - O(N) (where n is the number of adjacent edges)
+Space complexity - O(W) (all nodes that are stored in the stack)
+
+### Solution
+
+- [Code Challenge 37 whiteboard](./assets/code_challenge_37_whiteboard.PNG)
+### Challenge
+
 Given a graph and a list of city names, check if a direct path flight is possible and if so return the total cost of the flight.
 
 ### Approach & Efficiency
