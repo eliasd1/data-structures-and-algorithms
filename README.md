@@ -121,3 +121,25 @@ Find the repeated word without using any built-in functions
 ### Approach & Efficiency
 
 First, create a linkedlist. Add a method that iterates over the given string and adds wordds to the linkedlist, and if a word already exists in the linkedlist, return the word.
+
+### Challenge
+
+Given a graph and a list of city names, check if a direct path flight is possible and if so return the total cost of the flight.
+
+### Approach & Efficiency
+
+- Define a method that traverses the graph
+- Define a list
+- Define a stack that will hold unvisited locations
+- Keep track of locations visited
+- If the location hasn't been visited, add it
+to the list
+- Loop through the list returned from the method and get the cost (or weight) between the nodes
+- If a location has been visited, return false (meaning there's no direct path
+
+Time complexity - O(N) (where n is the number of adjacent edges)
+Space complexity - O(W) (all nodes that are stored in the stack)
+
+### Solution
+
+- [Code Challenge 37 whiteboard](./assets/code_challenge_37_whiteboard.PNG)

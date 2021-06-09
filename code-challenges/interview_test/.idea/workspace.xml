@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79438322-5d41-48d6-8190-c0b40ef3267c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../breadth_first_graph/app/src/main/java/breadth_first_graph/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../breadth_first_graph/app/src/main/java/breadth_first_graph/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../breadth_first_graph/app/src/main/java/breadth_first_graph/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../breadth_first_graph/app/src/main/java/breadth_first_graph/BreadthFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/atob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/escodegen" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/escodegen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/esgenerate" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/esgenerate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/import-local-fixture" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/import-local-fixture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/is-ci" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/is-ci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/is-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/is-docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/jest" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/jest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/jest-runtime" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/jest-runtime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/mustache" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/sane" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/sane" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/watch" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/watch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/@babel/core/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/@babel/core/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/@jest/core/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/@jest/core/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/istanbul-lib-instrument/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/istanbul-lib-instrument/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/make-dir/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/make-dir/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/normalize-package-data/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/normalize-package-data/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/request/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/request/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/sane/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/sane/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node_modules/sane/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/sane/node_modules/.bin/which" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1tRGwbWz4NITebxvOBEoiQNXqI3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79438322-5d41-48d6-8190-c0b40ef3267c" name="Default Changelist" comment="" />
+      <created>1622724729334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622724729334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

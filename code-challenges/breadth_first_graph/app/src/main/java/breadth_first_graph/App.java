@@ -27,5 +27,6 @@ public class App {
       graph.addEdge(thirdNode, fourthNode, 20);
 
       System.out.println(GetEdges.getCost(graph, new String[]{"first", "second", "third", "fourth"}));
+      System.out.println(BreadthFirst.nodeExists(firstNode, secondNode, graph));
     }
 }
