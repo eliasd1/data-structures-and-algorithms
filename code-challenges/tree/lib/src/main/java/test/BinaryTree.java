@@ -31,6 +31,15 @@ public class BinaryTree {
       }
     }
   }
+  public int findMaximumNumber(){
+    int max = Integer.MIN_VALUE;
+    for(Node node: FizzBuzzTree.breadthFirstSearch(getRoot())){
+      if(Math.max(max, (int) node.getValue()) > max){
+        max = (int) node.getValue();
+      }
+    }
+    return max;
+  }
   public Node getRoot(){
     return root;
   }
