@@ -10,7 +10,6 @@ public class App {
     tree.add(40);
     tree.add(50);
     tree.add(60);
-    FizzBuzzTree.fizzBuzzTree(tree);
 //    System.out.println(tree.getRoot().getValue());
 //    System.out.println(tree.getRoot().getLeft().getValue());
 //    System.out.println(tree.getRoot().getRight().getValue());
