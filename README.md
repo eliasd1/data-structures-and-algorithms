@@ -199,3 +199,27 @@ Space Complexity -> O(N)
 ### Solution
 
 - [Code Challenge 32 whiteboard](./assets/code_challenge_32_whiteboard.PNG)
+
+### Challenge (Code challenge 15)
+
+Create a binary tree and define a method for each of the depth first traversals
+Create a binary search tree
+
+### Approach & Efficiency
+
+- Define a list
+- Basic structure of the traversal is having two recursions, one for the left node and the other for the right node
+- Placing where to add a value to a list depends on the order
+- Pre-order, add value at the beginning of the function
+- In-order, add value inbetween root.left recursion and root.right recursion
+- Post-order, add value at the end of the function
+For binary search tree
+- If the value is less than the root value, add it to the left node
+- If the value is greater than the root value, add it to the right node
+- If either a left node or right node exists, compare that value, it becomes the root node and is compared with the value
+Time complexity -> O(N)
+Space Complexity -> O(N)
+
+### Solution
+
+- [Code Challenge 15 whiteboard](./assets/code_challenge_15_whiteboard.PNG)
