@@ -223,3 +223,26 @@ Space Complexity -> O(N)
 ### Solution
 
 - [Code Challenge 15 whiteboard](./assets/code_challenge_15_whiteboard.PNG)
+
+### Challenge (Code challenge 17)
+
+Traverse through a tree using breadth first method
+
+### Approach & Efficiency
+
+- Define a list
+- Define a queue
+- Add root to queue
+- Create a while loop that checks
+if queue is empty
+- Dequeue node
+- Add it to list
+- Add root.left and root.right to queue
+- Repeat until queue is empty
+- Return list
+Time complexity -> O(N)
+Space Complexity -> O(W)
+
+### Solution
+
+- [Code Challenge 17 whiteboard](./assets/code_challenge_17_whiteboard.PNG)
