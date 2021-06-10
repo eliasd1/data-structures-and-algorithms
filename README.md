@@ -332,3 +332,31 @@ Space complexity -> O(N)
 
 - [Code Challenge 35 whiteboard](./assets/code_challenge_35_whiteboard.PNG)
 
+### Challenge (Code challenge 18)
+
+Create a new tree that is filled with nodes from another tree, where each node is checked to see if it's divisible by 5 and 3 and depending on that the value could be "fizzbuzz" "fizz", or "buzz".
+
+### Approach & Efficiency
+
+- Define a new tree
+- Get list of nodes from BST
+- Loop through nodes
+- If number is divisible by 5 and 3
+add a node with the value of "FizzBuzz"
+to the new tree
+- If number is divisible by 3
+add a node with the value of "Fizz"
+to the new tree
+- If number is divisible by 5
+add a node with the value of "Buzz"
+to the new tree
+- Else add the add a node with the same value
+
+Time complexity -> O(N) ,loop each node
+Space complexity -> O(N) number of nodes
+add to queue and list
+
+### Solution
+
+- [Code Challenge 18 whiteboard](./assets/code_challenge_18_whiteboard.PNG)
+
