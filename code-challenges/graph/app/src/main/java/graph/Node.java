@@ -4,7 +4,7 @@ import hashtable.HashTable;
 
 public class Node {
   private Object object;
-  private HashTable edges = null;
+  private HashTable edges = new HashTable();
 
   public Node(Object object){
     this.object = object;

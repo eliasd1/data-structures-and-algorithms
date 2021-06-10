@@ -296,3 +296,39 @@ Space Complexity -> O(N)
 ### Solution
 
 - [Code Challenge 38 whiteboard](./assets/code_challenge_38_whiteboard.PNG)
+
+### Challenge (Code challenge 35)
+
+Create a graph implementation
+
+### Approach & Efficiency
+
+AddNode
+- Create list
+- Add node to list if it list
+doesn't contain node
+
+Add Edge
+- Set edge of the first node
+to be the second node
+- Node should have an edge variable
+that is saved as a hashtable
+
+GetNodes
+- Return list
+
+GetNeighbors
+- Return edges of the node
+
+GetSize
+- Return size of list
+
+Time complexity -> O(N)
+GetNodes -> O(N)
+GetNeighbors -> O(1)
+Space complexity -> O(N)
+
+### Solution
+
+- [Code Challenge 35 whiteboard](./assets/code_challenge_35_whiteboard.PNG)
+
