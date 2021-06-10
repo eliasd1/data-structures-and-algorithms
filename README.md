@@ -179,3 +179,23 @@ Space complexity - O(N) number of edges saved in the queue
 ### Solution
 
 - [Code Challenge 36 whiteboard](./assets/code_challenge_36_whiteboard.PNG)
+
+
+### Challenge (Code challenge 32)
+
+Define a method that finds an intersection between two trees.
+
+### Approach & Efficiency
+
+- Loop through one tree
+- For each node, loop through the second tree
+and find if it exists in the second tree
+- If it does, add it to the list
+- Return list
+
+Time complexity -> O(N^2) code contains a nested loop
+Space Complexity -> O(N)
+
+### Solution
+
+- [Code Challenge 32 whiteboard](./assets/code_challenge_32_whiteboard.PNG)
