@@ -276,3 +276,23 @@ Space Complexity -> O(1)
 ### Solution
 
 - [Code Challenge 6 whiteboard](./assets/code_challenge_6_Elias.PNG)
+
+### Challenge (Code challenge 38)
+
+Traverse a graph using pre-order depth first traversal
+
+### Approach & Efficiency
+
+- Define a list that will hold the nodes
+- Define a list that will keep track of visited nodes
+- Add root value to list
+- Get root edges
+- For each edge, repeat the previous function (add to list, and get edges)
+- Return list
+
+Time complexity -> O(N)
+Space Complexity -> O(N)
+
+### Solution
+
+- [Code Challenge 38 whiteboard](./assets/code_challenge_38_whiteboard.PNG)

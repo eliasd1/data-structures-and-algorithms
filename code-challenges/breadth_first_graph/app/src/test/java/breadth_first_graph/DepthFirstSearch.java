@@ -53,7 +53,7 @@ public class DepthFirstSearch {
     check.add(fifthNode);
     graph.addNode(sixthNode);
     graph.addEdge(fourthNode, sixthNode, 100);
-    
+
     assertEquals(check, DepthFirst.traverseGraph(graph));
 
   }
