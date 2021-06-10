@@ -157,3 +157,25 @@ Space complexity - O(W) (all nodes that are stored in the stack)
 ### Solution
 
 - [Code Challenge 37 whiteboard](./assets/code_challenge_37_whiteboard.PNG)
+
+### Challenge
+
+Use breadth first search to traverse a graph and check places visited
+
+### Approach & Efficiency
+
+- Define a list containing visited nodes
+- Define another list that keeps track of
+visited nodes
+- Define a queue that queues node(s) at each 
+level of the graph
+- While queue is empty, dequeue and add the
+dequeued node to the list if it hasn't been visited yet
+- Return list
+
+Time complexity - O(N) where n equals number of edges
+Space complexity - O(N) number of edges saved in the queue
+
+### Solution
+
+- [Code Challenge 36 whiteboard](./assets/code_challenge_36_whiteboard.PNG)

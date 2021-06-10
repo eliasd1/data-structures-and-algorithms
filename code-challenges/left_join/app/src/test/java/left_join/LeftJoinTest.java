@@ -20,9 +20,9 @@ public class LeftJoinTest {
     HashTable left  = new HashTable();
     HashTable right = new HashTable();
     List<Object> checkList = new ArrayList<>();
-    left.add("first", 1);
-    left.add("second", 2);
-    left.add("third", 3);
+    left.add("first", 1); // ["first", 1, "this is the first"]
+    left.add("second", 2); // ["second", 2, "second"]
+    left.add("third", 3);//["third", 3, "third"]
     right.add("first", "this is the first");
     right.add("second", "second");
     right.add("third", "third");
@@ -36,11 +36,12 @@ public class LeftJoinTest {
     secondList.add(left.get(left.getKeys().get(1)));
     secondList.add(right.get(left.getKeys().get(1)));
 
+    assertEquals(secondList, LeftJoin.leftJoin(left, right).get(1));
     checkList.add(left.getKeys().get(0));
     checkList.add(left.get(left.getKeys().get(0)));
     checkList.add(right.get(left.getKeys().get(0)));
 
-    assertEquals(secondList, LeftJoin.leftJoin(left, right).get(1));
+
     assertEquals(checkList, LeftJoin.leftJoin(left,right).get(0));
 
     checkList = new ArrayList<>();
