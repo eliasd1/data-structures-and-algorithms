@@ -360,3 +360,25 @@ add to queue and list
 
 - [Code Challenge 18 whiteboard](./assets/code_challenge_18_whiteboard.PNG)
 
+### Challenge (Code challenge 16)
+
+Find the maximum value in binary tree
+
+### Approach & Efficiency
+
+- Define integer max
+- Use BST to traverse tree
+- Loop through the list
+- Compare value with max number
+- If value is greater than max number,
+make max number equal to value
+- Return max number
+
+Time complexity -> O(N), loop through every tree node
+Space complexity -> O(N), list returned from bst
+
+### Solution
+
+- [Code Challenge 16 whiteboard](./assets/code_challenge_16_whiteboard.PNG)
+
+
