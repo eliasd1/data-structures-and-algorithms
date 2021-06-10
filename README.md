@@ -246,3 +246,33 @@ Space Complexity -> O(W)
 ### Solution
 
 - [Code Challenge 17 whiteboard](./assets/code_challenge_17_whiteboard.PNG)
+
+### Challenge (Code challenge 6)
+
+- Append value to linkedlist
+- Insert before a value in linkedlist
+- Insert after a value in linkedlist
+
+### Approach & Efficiency
+
+Append value
+
+- Loop through linkedlist until current.next is null
+- Set current.next to equal appended value
+Insert before
+- Loop through linkedlist until current.next is equal to the target value
+- Save current.next in a temp node
+- Set current.next to be equal to the value given
+- Set the new node.next to be equal to the temp node
+Insert after
+- Loop through linkedlist until current is equal to the target value
+- Save current.next value in a temp node
+- Set current.next to be equal to the value given
+- Set the new node.next to be equal to the temp node
+
+Time complexity -> O(N)
+Space Complexity -> O(1)
+
+### Solution
+
+- [Code Challenge 6 whiteboard](./assets/code_challenge_6_Elias.PNG)
