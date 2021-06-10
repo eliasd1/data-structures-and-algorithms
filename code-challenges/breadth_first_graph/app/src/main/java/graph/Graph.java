@@ -9,6 +9,9 @@ public class Graph {
   Node head = null;
   List<Node> allNodes = new ArrayList<>();
   public Node addNode(Node node){
+    if(head == null){
+      head = node;
+    }
     if(!(allNodes.contains(node))){
       allNodes.add(node);
       return node;
@@ -29,5 +32,8 @@ public class Graph {
       return node.edges();
     }
     return null;
+  }
+  public Node getHead(){
+    return head;
   }
 }
