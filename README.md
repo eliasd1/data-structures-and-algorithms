@@ -117,7 +117,8 @@ Sort an array using the quick sort method
 Pick a pivot (last number in an array)and compare it with values at each index. Declare a variable called low that is equal to -1. If a value is less than the pivot value, increment low and replace that value with low +1.
 
 ### Solution
-[Code Challenge 28 whiteboard](assets/code_challenge_28_whiteboard.PNG)
+- [Code Challenge 28 whiteboard](assets/code_challenge_28_whiteboard.PNG)
+- [Blog - Code Challenge 28](./blogs/code-challenge-28/BLOG-28.md)
 
 ## Repeated Words
 
@@ -476,3 +477,19 @@ Space complexity -> O(N)
 ### Solution
 
 - [Code Challenge 12 whiteboard](./assets/code_challenge_12_whiteboard.PNG)
+
+### Challenge (Code challenge 28)
+
+Sort an array using quick sort method
+
+### Approach & Efficiency
+
+Pick a pivot (last number in an array)and compare it with values at each index. Declare a variable called low that is equal to -1. If a value is less than the pivot value, increment low and replace that value with low +1.
+
+Time complexity -> O(n log n)
+Space complexity -> O(n log n)
+
+### Solution
+
+- [Code Challenge 28 whiteboard](./assets/code_challenge_28_whiteboard.PNG)
+- [Blog - Code Challenge 28](./blogs/code-challenge-28/BLOG-28.md)
