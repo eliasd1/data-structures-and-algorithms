@@ -493,3 +493,26 @@ Space complexity -> O(n log n)
 
 - [Code Challenge 28 whiteboard](./assets/code_challenge_28_whiteboard.PNG)
 - [Blog - Code Challenge 28](./blogs/code-challenge-28/BLOG-28.md)
+
+### Challenge (Code challenge 27)
+
+Sort an array using merge sort
+
+### Approach & Efficiency
+
+- Divide array into two subarrays
+- Define a left array
+- Define a right array
+- Call the same function for each subarray
+- Repeat until there length of given array is 1
+- Pass the left, right, and arr to another function
+- If left is greater than right, swap left with right
+- Do this recursively
+
+Time complexity -> O(n log n)
+Space complexity -> O(n log n)
+
+### Solution
+
+- [Code Challenge 27 whiteboard](./assets/code_challenge_27_whiteboard.PNG)
+- [Blog - Code Challenge 27](./blogs/code-challenge-27/BLOG-27.md)
