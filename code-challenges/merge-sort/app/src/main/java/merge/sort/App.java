@@ -21,7 +21,7 @@ public class App {
     if(n > 1){
       int mid = n/2;
       left = Arrays.copyOf(arr, mid);
-      right = Arrays.copyOfRange(arr, mid, n);  
+      right = Arrays.copyOfRange(arr, mid, n);
       mergeSort(left);
       mergeSort(right);
     }
