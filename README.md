@@ -455,4 +455,24 @@ Space complexity -> O(N), saving n elements to a stack
 
 ### Solution
 
-- [Code Challenge 26 whiteboard](./assets/code_challenge_26_whiteboard.PNG)
+- [Code Challenge 11 whiteboard](./assets/code_challenge_11_whiteboard.PNG)
+
+### Challenge (Code challenge 12)
+
+Create an animal shelter class that keeps track of dogs and cats sheltered
+
+### Approach & Efficiency
+
+- Define a stack to hold dogs
+- Define a stack to hold cats
+- Check animal type of input
+- If animal type is dog, add it to dogs stack
+- If animal type is cat, add it tocats stack
+- If animal type is neither dog nor cat, don't add it to any stack and return null
+
+Time complexity -> O(1)
+Space complexity -> O(N)
+
+### Solution
+
+- [Code Challenge 12 whiteboard](./assets/code_challenge_12_whiteboard.PNG)
