@@ -8,15 +8,15 @@ public class PseudoQueue<T> {
   }
 
   public void enqueue(T object){
+    if(object != null){
       while(!stack.isEmpty()){
        reverseStack.push(stack.pop().getData());
       }
-      if(object != null){
-        reverseStack.push(object);
-        while(!reverseStack.isEmpty()){
-          stack.push(reverseStack.pop().getData());
-        }
+      reverseStack.push(object);
+      while(!reverseStack.isEmpty()){
+        stack.push(reverseStack.pop().getData());
       }
+    }
   }
   public Node dequeue(){
     if(stack.isEmpty()){
