@@ -12,13 +12,16 @@ public class App {
     }
   }
   public static int[] mergeSort(int [] arr){
+    if(arr == null){
+      return null;
+    }
     int n = arr.length;
     int[] left = new int[]{};
     int[] right = new int[]{};
     if(n > 1){
       int mid = n/2;
       left = Arrays.copyOf(arr, mid);
-      right = Arrays.copyOfRange(arr, mid, n);
+      right = Arrays.copyOfRange(arr, mid, n);  
       mergeSort(left);
       mergeSort(right);
     }
@@ -28,7 +31,9 @@ public class App {
     int i = 0;
     int j = 0;
     int k = 0;
-
+    if(left == null || right == null || arr == null){
+      return null;
+    }
     while(i<left.length && j<right.length){
       if(left[i] <= right[j]){
         arr[k] = left[i];
