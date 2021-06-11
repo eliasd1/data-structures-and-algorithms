@@ -12,5 +12,8 @@ public class PseudoQueueTest {
     assertEquals(50, queue.getStack().peek().getData());
     assertEquals(50, queue.dequeue().getData());
     assertEquals(10, queue.getStack().peek().getData());
+    queue = new PseudoQueue();
+    queue.enqueue(null);
+    assertEquals(null, queue.dequeue());
   }
 }
