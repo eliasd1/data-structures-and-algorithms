@@ -516,3 +516,20 @@ Space complexity -> O(n log n)
 
 - [Code Challenge 27 whiteboard](./assets/code_challenge_27_whiteboard.PNG)
 - [Blog - Code Challenge 27](./blogs/code-challenge-27/BLOG-27.md)
+
+### Challenge (Code challenge 13)
+
+Check whether brackets in a string are balanced
+
+### Approach & Efficiency
+
+- Define a stack
+- If input is "{" or "(" or "[", push it to the stack
+- If input is "}" or ")" or "]", check the top of the stack, if it's not the mirror once, return false
+
+Time complexity -> O(N)
+Space complexity -> O(N)
+
+### Solution
+
+- [Code Challenge 13 whiteboard](./assets/code_challenge_13_whiteboard.PNG)

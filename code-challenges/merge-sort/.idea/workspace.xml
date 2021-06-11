@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe12d125-a02a-4995-b380-cd2ddeef1ffc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/merge/sort/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/merge/sort/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/merge/sort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/merge/sort/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multibracketvalidation/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multibracketvalidation/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/acorn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/atob" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../node_modules/.bin/escodegen" beforeDir="false" afterPath="$PROJECT_DIR$/../../node_modules/.bin/escodegen" afterDir="false" />
