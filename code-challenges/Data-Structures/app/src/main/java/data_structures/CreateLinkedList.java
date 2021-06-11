@@ -89,7 +89,7 @@ public class CreateLinkedList {
       }
       return current.value();
     } else{
-      throw new IllegalArgumentException("Not valid input");
+      return null;
     }
   }
   public boolean isPalindrome(){

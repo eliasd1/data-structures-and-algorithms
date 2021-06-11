@@ -381,4 +381,25 @@ Space complexity -> O(N), list returned from bst
 
 - [Code Challenge 16 whiteboard](./assets/code_challenge_16_whiteboard.PNG)
 
+### Challenge (Code challenge 7)
+
+Return the number that is kth from end of a linkedlist
+
+### Approach & Efficiency
+
+- Define a count to keep of number nodes
+in linkedlist
+- Loop through list
+- Stop incrementing counter when current.next() is null
+- Counter should be length of the list -1 
+- Loop through the list until i is equal or greater than counter
+- Return node.value where loop stopped
+
+Time complexity -> O(N^2), nested loop
+Space complexity -> O(1)
+
+### Solution
+
+- [Code Challenge 7 whiteboard](./assets/code_challenge_7_whiteboard.PNG)
+
 
