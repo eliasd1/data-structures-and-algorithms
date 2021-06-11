@@ -4,14 +4,16 @@ public class AnimalShelter {
   Queue dogs = new Queue();
   Queue cats = new Queue();
 
-  public void enqueue(Animal animal){
+  public Animal enqueue(Animal animal){
     System.out.println(animal.getAnimalType());
     if(animal.getAnimalType().toLowerCase(Locale.ROOT).equals("dog")){
       dogs.enqueue(animal);
+      return animal;
     } else if(animal.getAnimalType().toLowerCase(Locale.ROOT).equals("cat")){
       cats.enqueue(animal);
+      return animal;
     } else{
-      throw new IllegalArgumentException("Not a valid input");
+      return null;
     }
   }
   public Node dequeue(String pref){
