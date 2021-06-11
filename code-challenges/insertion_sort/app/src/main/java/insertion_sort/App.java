@@ -14,6 +14,9 @@ public class App {
       if(arr == null){
         return null;
       }
+      if(arr.length < 2){
+        return arr;
+      }
       for(int i = 1; i<arr.length; i++){
         int j =i-1;
         int temp =  arr[i];
@@ -27,3 +30,6 @@ public class App {
       return arr;
     }
 }
+
+
+

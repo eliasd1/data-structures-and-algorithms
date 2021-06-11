@@ -402,4 +402,28 @@ Space complexity -> O(1)
 
 - [Code Challenge 7 whiteboard](./assets/code_challenge_7_whiteboard.PNG)
 
+### Challenge (Code challenge 26)
+
+Sort an array using insertion sort method
+
+### Approach & Efficiency
+
+- Loop through the array where i =1
+- Define j which is equal to i -1
+- Save value at index i to temp variable
+- Check if temp is less than value at specific index previous to it 
+- Check that j is positive
+- Move value at j index by one index
+- Subtract j with 1
+- Repeat the above procedures until one of the conditions is false
+- Add temp to index j+1
+
+Time complexity -> O(N^2), nested loops
+Space complexity -> O(1)
+
+### Solution
+
+- [Code Challenge 26 whiteboard](./assets/code_challenge_26_whiteboard.PNG)
+- [Blog - Code Challenge 26](./blogs/code-challenge-26/BLOG-26.md)
+
 

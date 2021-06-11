@@ -18,5 +18,7 @@ public class InsertionSortTest {
     assertTrue(Arrays.equals(App.insertionSort(arr), sortedArr));
     assertEquals(0, App.insertionSort(new int[]{}).length);
     assertEquals(null, App.insertionSort(null));
+    arr = new int[]{1};
+    assertEquals(arr, App.insertionSort(arr));
   }
 }
