@@ -8,6 +8,7 @@ public class PseudoQueue<T> {
   }
 
   public void enqueue(T object){
+    if(object != null){
       while(!stack.isEmpty()){
        reverseStack.push(stack.pop().getData());
       }
@@ -15,8 +16,12 @@ public class PseudoQueue<T> {
       while(!reverseStack.isEmpty()){
         stack.push(reverseStack.pop().getData());
       }
+    }
   }
   public Node dequeue(){
+    if(stack.isEmpty()){
+      return null;
+    }
     return stack.pop();
   }
 

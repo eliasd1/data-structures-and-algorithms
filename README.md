@@ -80,20 +80,29 @@ GetValues function
 
 Returns an array of all the values in the list
 
-## Insertion Sort
+### Challenge (Code challenge 26)
 
-A method that sorts a given array
-
-### Challenge
-
-Sort an array using the insertion sort method
+Sort an array using insertion sort method
 
 ### Approach & Efficiency
 
-Compare a value at certain index with all values at previous indexes
+- Loop through the array where i =1
+- Define j which is equal to i -1
+- Save value at index i to temp variable
+- Check if temp is less than value at specific index previous to it 
+- Check that j is positive
+- Move value at j index by one index
+- Subtract j with 1
+- Repeat the above procedures until one of the conditions is false
+- Add temp to index j+1
+
+Time complexity -> O(N^2), nested loops
+Space complexity -> O(1)
 
 ### Solution
-[Code Challenge 26 whiteboard](assets/code_challenge_26_whiteboard.PNG)
+
+- [Code Challenge 26 whiteboard](./assets/code_challenge_26_whiteboard.PNG)
+- [Blog - Code Challenge 26](./blogs/code-challenge-26/BLOG-26.md)
 
 ## Quick Sort
 
@@ -426,4 +435,24 @@ Space complexity -> O(1)
 - [Code Challenge 26 whiteboard](./assets/code_challenge_26_whiteboard.PNG)
 - [Blog - Code Challenge 26](./blogs/code-challenge-26/BLOG-26.md)
 
+### Challenge (Code challenge 11)
 
+Sort an array using insertion sort method
+
+### Approach & Efficiency
+
+- Define a stack
+- Define a reverse stack
+- If stack is not empty, pop all values
+to the reverse stack
+- Add the given value to the reverse stack
+- Pop all values in the reverse stack to the other
+stack
+- Stack should now be order similar to a queue
+
+Time complexity -> O(N), goes through a loop, traversing n elements
+Space complexity -> O(N), saving n elements to a stack
+
+### Solution
+
+- [Code Challenge 26 whiteboard](./assets/code_challenge_26_whiteboard.PNG)
