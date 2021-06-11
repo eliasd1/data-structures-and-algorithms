@@ -21,7 +21,6 @@ public class App {
     public static int partition(int[] arr, int left, int right){
        int pivot = arr[right];
        int low = left-1;
-
        for(int i = left; i<right; i++){
          if(arr[i] <= pivot){
            low++;
